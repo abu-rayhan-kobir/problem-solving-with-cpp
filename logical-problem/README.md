@@ -1,0 +1,2 @@
+# Logical problem statement
+Create a program that checks if user is eligible for a tea subscription distount. The discount applies if the user is eighter student or has purchesed more than 15 cups. Ask the user to input their status (student or not) and their cup count.
