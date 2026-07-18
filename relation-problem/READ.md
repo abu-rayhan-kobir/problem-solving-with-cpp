@@ -1,0 +1,2 @@
+# Relation problem statement
+A tea shop offers a loyalty program. Customers who buy more than 20 cups ao tea get a special "Gold" badge and those who buy 10 to 20 cups geta "Solver" badge. Write a programe. Write a program to display the badge they will recieve based on the number of cups they buy.
