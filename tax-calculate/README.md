@@ -1,0 +1,2 @@
+# Problem statement:
+Write a program that calcualtes the price of tea pack. A user enters the number of tea pack they want and the price per pack. Applya 10% tax to the total price and display the final cost.
