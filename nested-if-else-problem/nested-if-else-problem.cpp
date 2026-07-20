@@ -2,14 +2,19 @@
 
 int main () {
   unsigned int cups;
-  std::cout << "Enter the number of cups that you want to take: ";
+  float pricePerCup = 2.51;
+  float discount;
+  std::cout << "Enter the number of cup that you want to take: ";
   std::cin >> cups;
   if (cups >= 10 && cups <= 20) {
-    std::cout << "You are eligible for 10% discount!";
+    discount = 0.1;
   } else if (cups > 20) {
-    std::cout << "You are eligible for 20% discount!";
+    discount = 0.2;
   } else {
-    std::cout << "You are not eligible for any discount!";
+    discount = 0;
   }
+  double totalPrice = pricePerCup * cups;
+  double discountedPrice = totalPrice - (discount * totalPrice);
+  std::cout << "Now, You have to pay: " << discountedPrice << std::endl;
   return 0;
 }
