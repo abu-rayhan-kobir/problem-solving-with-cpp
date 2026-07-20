@@ -14,7 +14,7 @@ int main () {
     discount = 0;
   }
   double totalPrice = pricePerCup * cups;
-  double discountedPrice = totalPrice - (discount * totalPrice);
-  std::cout << "Now, You have to pay: " << discountedPrice << std::endl;
+  totalPrice -= discount * totalPrice;
+  std::cout << "Now, You have to pay: " << totalPrice << std::endl;
   return 0;
 }
